@@ -60,5 +60,3 @@ input8.addEventListener('click', () => {
     console.log('entry 2 Division');
 
 });
-
-
