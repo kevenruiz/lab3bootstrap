@@ -14,7 +14,7 @@ const input6 = document.getElementById('input6');
 const input7 = document.getElementById('input7');
 const input8 = document.getElementById('input8');
 const equalsTo = document.getElementById('equals-to-button');
-const answerDisplay = document.getElementById('answer-display')
+const answerDisplay = document.getElementById('answer-display');
 
 
 equalsTo.addEventListener('click', () => {
