@@ -14,13 +14,34 @@ const input6 = document.getElementById('input6');
 const input7 = document.getElementById('input7');
 const input8 = document.getElementById('input8');
 const equalsTo = document.getElementById('equals-to-button');
+const equalsTo2 = document.getElementById('equals-to-button2');
+const equalsTo3 = document.getElementById('equals-to-button3');
+const equalsTo4 = document.getElementById('equals-to-button4');
 const answerDisplay = document.getElementById('answer-display');
-
+const answerDisplay2 = document.getElementById('answer-display2');
+const answerDisplay3 = document.getElementById('answer-display3');
+const answerDisplay4 = document.getElementById('answer-display4');
 
 equalsTo.addEventListener('click', () => {
     console.log('submit answer!');
 
 });
+
+equalsTo2.addEventListener('click', () => {
+    console.log('submit answer!');
+
+});
+
+equalsTo3.addEventListener('click', () => {
+    console.log('submit answer!');
+
+});
+
+equalsTo4.addEventListener('click', () => {
+    console.log('submit answer!');
+
+});
+
 
 input1.addEventListener('click', () => {
     console.log('entry 1 Addition');
