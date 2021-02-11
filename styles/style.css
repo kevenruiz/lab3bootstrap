@@ -19,7 +19,7 @@ body {
     --footer-height: 25px;
     
     font-family: 'Titillium Web', sans-serif;
-    background-color: var(--color2);
+    background-color: lightpink;
 }
 
 main {
@@ -83,10 +83,21 @@ header img {
 
 content {
     width: 80%;
+    text-align: left;
 }
 
 p {
     margin: var(--gutter);
+}
+
+.addition-intro{
+    font-style: italic;
+}
+
+label{
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
 }
   
 footer {
