@@ -24,21 +24,26 @@ const answerDisplay4 = document.getElementById('answer-display4');
 
 equalsTo.addEventListener('click', () => {
     console.log('submit answer!');
+    answerDisplay.textContent = Number(input1.value) + Number(input2.value);
 
 });
 
 equalsTo2.addEventListener('click', () => {
     console.log('submit answer!');
+    answerDisplay2.textContent = Number(input3.value) - Number(input4.value);
 
 });
 
 equalsTo3.addEventListener('click', () => {
     console.log('submit answer!');
+    answerDisplay3.textContent = Number(input5.value) * Number(input6.value);
+
 
 });
 
 equalsTo4.addEventListener('click', () => {
     console.log('submit answer!');
+    answerDisplay4.textContent = Number(input7.value) / Number(input8.value);
 
 });
 
@@ -81,3 +86,4 @@ input8.addEventListener('click', () => {
     console.log('entry 2 Division');
 
 });
+
