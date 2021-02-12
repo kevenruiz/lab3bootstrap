@@ -4,6 +4,11 @@
 
 // set event listeners on each button, do math and update DOM
 
+import { add, subtract, multiply, divide } from './utilities.js'
+
+
+
+
 
 const input1 = document.getElementById('input1');
 const input2 = document.getElementById('input2');
@@ -24,7 +29,7 @@ const answerDisplay4 = document.getElementById('answer-display4');
 
 equalsTo.addEventListener('click', () => {
     console.log('submit answer!');
-    answerDisplay.textContent = Number(input1.value) + Number(input2.value);
+    answerDisplay.textContent = add(Number(input1.value), Number(input2.value));
 
 });
 
@@ -86,4 +91,6 @@ input8.addEventListener('click', () => {
     console.log('entry 2 Division');
 
 });
+
+import { add } from './utilities';
 
