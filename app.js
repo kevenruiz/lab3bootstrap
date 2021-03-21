@@ -27,6 +27,8 @@ const answerDisplay2 = document.getElementById('answer-display2');
 const answerDisplay3 = document.getElementById('answer-display3');
 const answerDisplay4 = document.getElementById('answer-display4');
 
+
+
 equalsTo.addEventListener('click', () => {
     console.log('submit answer!');
     answerDisplay.textContent = add(Number(input1.value), Number(input2.value));
@@ -36,7 +38,6 @@ equalsTo.addEventListener('click', () => {
 equalsTo2.addEventListener('click', () => {
     console.log('submit answer!');
     answerDisplay2.textContent = Number(input3.value) - Number(input4.value);
-
 });
 
 equalsTo3.addEventListener('click', () => {
@@ -92,5 +93,4 @@ input8.addEventListener('click', () => {
 
 });
 
-import { add } from './utilities';
 
